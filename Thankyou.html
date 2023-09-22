@@ -1,0 +1,170 @@
+<html>
+
+<head>
+
+<style>
+body {
+  margin: 0;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #115;
+}
+
+.topnav a {
+  float: centre;
+  color: #f2f2f4;
+  text-align: centre;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #dde;
+  color: coral;
+}
+
+.topnav a.active {
+  background-color: #04AA5D;
+  color: purple;
+}
+</style>
+
+
+
+<style>
+body {
+ 
+}
+
+ {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  font-family: Jazz LET, fantasy;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  font-family: Jazz LET, fantasy;
+  background-color: #036D;
+  color: yellow;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #24b400;
+}
+
+.container {
+  font-family: Jazz LET, fantasy;
+  border-radius: 5px;
+  background-color: #f2f4e2;
+  padding: 10px;
+}
+
+.column {
+  font-family: Jazz LET, fantasy;
+  float: left;
+  width: 97%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+
+
+
+
+<style>
+.footer {
+   font-family: Courier New, monospace;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: coral;
+   text-align: left;
+}
+</style>
+
+</head>
+
+
+<body>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="Work.html">Experiences</a>
+  <a class="active" href="Thankyou.html">Contact</a>
+  <a href="Explain.html">About</a>
+</div>
+
+
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Find Zhònghán</h2>
+    <p>*This is where I live...* XDD~</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="Images/My House.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="The name that your parents gave...">
+        <label for="lname">E-mail</label>
+        <input type="text" id="lname" name="lastname" placeholder="Whichever one you used more frequently...">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="austria">Austria</option>
+		  <option value="brazil">Brazil</option>
+          <option value="canada">Canada</option>
+		  <option value="equatorial guinea">Equatorial Guinea</option>
+		  <option value="gambia">Gambia</option>
+		  <option value="togo">Togo</option>
+          <option value="usa">USA</option>
+		  <option value="vietnam">Vietnam</option
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something... To me!" style="height:170px"></textarea>
+        <input type="submit" onclick="alert('Thank you for your participation!')">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="footer">
+  <p>© Zhònghán's Portfolio 2023 All Rights Resevered</p>
+</div>
+
+</body>
+
+</html>
